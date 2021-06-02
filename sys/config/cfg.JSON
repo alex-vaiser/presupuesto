@@ -1,0 +1,29 @@
+{
+	"typeAmbient"	:	"local",
+	"dataBase"		:	{
+							"local"			:	{
+													"server"  	: 	"localhost",
+													"port"	  	: 	"3306",
+													"database"  :   "db_presupuesto",
+													"charset"  :   	"utf8",
+													"user"    	: 	"root",
+													"password"	:	"vaisser2006"
+												},
+							"production"	:	{
+													"server"  	: 	"localhost",
+													"port"	  	: 	"3306",
+													"database"  :   "db_eventos",													
+													"charset"  :   	"utf8",																										
+													"user"    	: 	"root",
+													"password"	:	""
+												}
+						},						
+	"datezone"		:	"America/Santiago",
+	"mail"          : {
+						"host"     : "smtp.gmail.com",
+					    "port"     : 587,
+					    "secure"   : "tls",
+					    "user"     : "alex.vaiser2012@gmail.com",
+					    "password" : "vaisser2006"					    
+					  }
+}

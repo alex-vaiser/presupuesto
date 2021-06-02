@@ -1,0 +1,156 @@
+.hide{
+	display: none;
+}
+.scrollY{
+	overflow-y: auto
+}
+
+html{
+	background:#000;
+	min-height: 100%;
+	position:relative;
+}
+
+body{
+	background:#000;
+	margin:0 !important;
+	margin-bottom:40px!important;
+}
+
+header{
+	background:#000;
+	height:156px;
+}
+
+/*logo*/
+header img{
+	width:100%;
+	height:100%;
+	max-height: 156px!important;
+	max-width:  288px!important;
+	background:none;
+}
+
+/* Menu */
+#chk_menu{
+	display: none;
+}
+
+header label[for="chk_menu"]{
+	padding:10px;
+	display:none;
+	color: #f3cc94;	
+
+}
+
+header label[for="chk_menu"]:hover{
+	background: rgba(0,0,0,0.3);
+	cursor: pointer;
+}
+
+header .menu ul{
+	margin:0;
+	padding:0;
+	list-style: none;
+	display:flex;
+	justify-content: flex-end;
+}
+
+header .menu ul li a{
+	display:block;
+	padding:10px 20px;
+	color: #f3cc94;	
+}
+
+header .menu ul li a:hover{	
+	color: #f3cc94 !important;
+	border-bottom: 2px solid #eca970;
+	padding-bottom: 10px;
+	cursor:pointer;
+}
+#main{	
+	background: rgba(100,100,100,.5) !important;
+	padding:15px;
+		
+}
+footer{
+	position:absolute;
+	margin-top:15px;
+	background:rgba(50,50,50,.5);
+	width: 100%;
+	left:0;	
+	bottom: 0;
+	color:#666;
+	text-align: center;
+	box-sizing: border-box;
+	padding:10px;
+	margin-top:15px!important;
+	z-index:10;
+}
+@media(min-width: 769px) and (max-width: 1080px){
+	header .menu ul{
+		margin:0;
+		padding:0;
+		list-style: none;
+		display:flex;
+		justify-content: center;
+		flex-grow: 1
+	}
+}
+@media(max-width: 768px){
+	header label[for="chk_menu"]{		
+		display:block;
+		position:absolute;
+		top:0px;
+		right:0px;
+		z-index:999;
+	}
+
+
+	header .menu{
+		position: absolute;
+		display:block;
+		left:0;
+		width: 100%;
+		margin-left:-115%;		
+		background: rgba(50,50,50,0.5);
+		z-index:999;
+		transition: all .3s;
+	}
+
+	header .menu ul{
+		flex-direction: column;
+	}
+
+	#chk_menu:checked ~ .menu{
+		margin-left: 0%!important;
+	}
+
+}
+
+/*sliders*/
+.slides li > img{
+	max-height: 512px!important;
+	box-sizing: cover!important;
+	
+}
+
+.bg-blue{
+	color:white;
+	background: #0A18C1;
+}
+
+input[readonly]{
+	background:#DEDEDE!important;
+}
+
+label{
+	font-weight: bold!important;
+}
+
+.required:after{
+	color:red;
+	content:' (*)';
+	font-weight:bold;
+}
+
