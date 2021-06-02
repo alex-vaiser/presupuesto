@@ -8,7 +8,7 @@ require_once __DIR__ . DS . "libs"     . DS . "File.php";
 require_once __DIR__ . DS . "libs"     . DS . "Uri.php";
 require_once __DIR__ . DS . "libs"     . DS . "Funcion.php";
 require_once __DIR__ . DS . "libs"     . DS . "Email.php";
-require_once __DIR__ . DS . "libs"     . DS . "Pdf.php";
+//require_once __DIR__ . DS . "libs"     . DS . "Pdf.php";
 require_once __DIR__ . DS . "sys" . DS . "database" . DS . "Connection.php";
 require_once __DIR__ . DS . "sys" . DS . "database" . DS . "QueryBuilder.php";
 require_once __DIR__ . DS . "sys" . DS . "core"     . DS . "Loader.php";

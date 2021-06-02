@@ -21,6 +21,7 @@
 		}
 
 		public function getFolio(){
+			
 			$query  = "SELECT CONCAT(id_mes,'-',id_anio,'-',id_correlativo) AS folio,
 							  CONCAT(id_mes,id_anio) AS base,
 							  MAX(id_correlativo) 

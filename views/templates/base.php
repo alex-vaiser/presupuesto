@@ -59,7 +59,7 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-lg-12 col-md-12 col-sm-12 col-12 text-center">
-							<small>DESARROLLADO POR ALVISERWEB &copy;2020 <br> Contacto: alex.vaiser2012@gmail.com</small>
+							<small>DESARROLLADO POR ALVISSERWEB &copy;2021 <br> Contacto: contacto@alvisserweb.cl</small>
 						</div>
 					</div>
 				</div>
